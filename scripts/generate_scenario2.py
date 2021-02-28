@@ -31,7 +31,7 @@ SEED = 847464097
 
 # Number of agents (<person>s) to generate for the simulation.
 # Note: The free version of Via only supports 500 maximum agents.
-PERSON_COUNT = 500
+PERSON_COUNT = 5000
 
 # Speed limit and link capacities are provided by the network.xml itself.
 # # Global speed limit in (meters/second)
