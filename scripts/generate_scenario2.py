@@ -40,15 +40,15 @@ PERSON_COUNT = 500
 # LINK_CAPACITY = 1000  # Arbitrary high value to remove congestion effects
 
 # Range of departure times (end_time) for home -> workplace
-DEPARTURE_TIME_RANGE_HOME = (datetime.time(7, 0, 0), datetime.time(8, 0, 0))
+DEPARTURE_TIME_RANGE_HOME = (datetime.time(7, 50, 0), datetime.time(8, 0, 0))
 # Range of departure times (end_time) for workplace -> shop
-DEPARTURE_TIME_RANGE_WORK = (datetime.time(17, 0, 0), datetime.time(18, 0, 0))
+DEPARTURE_TIME_RANGE_WORK = (datetime.time(17, 50, 0), datetime.time(18, 0, 0))
 # Range of departure times (end_time) for shop -> home
-DEPARTURE_TIME_RANGE_SHOP = (datetime.time(19, 0, 0), datetime.time(21, 0, 0))
+DEPARTURE_TIME_RANGE_SHOP = (datetime.time(19, 50, 0), datetime.time(20, 0, 0))
 # Controls the step size for randomly generated end_time values.
 # This is either a datetime.timedelta object or None.
 # Use None to use the smallest resolution possible (timedelta.resolution)
-TIME_STEP = datetime.timedelta(minutes=10)
+TIME_STEP = datetime.timedelta(seconds=30)
 
 
 class NetworkNode(NamedTuple):
