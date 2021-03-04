@@ -1,0 +1,6 @@
+pattern	0+	5+	10+	15+	20+	25+	30+	35+	40+	45+	50+	55+	60+
+home---work	304	196	0	0	0	0	0	0	0	0	0	0	0
+shopping---home	383	117	0	0	0	0	0	0	0	0	0	0	0
+work---shopping	349	150	1	0	0	0	0	0	0	0	0	0	0
+
+average trip duration: 247.38133333333334 seconds = 00:04:07
